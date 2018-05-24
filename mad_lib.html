@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+http://www.redkid.net/madlibs/
+-->
+
+
+
+<html>
+<head>
+<title> Anna's MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+
+<body>
+
+<h1> Anna's MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions">
+      Enter a value into each field. Then click 'Make Story' to read a funny story.
+    </p>
+
+    <form>
+      Type in an adjective. <input type="text" id="adjective1"> <br><br>
+      Type in a verb. <input type="text" id="verb1"> <br><br>
+      Type in another verb. <input type="text" id="verb2"> <br><br>
+      Type in a proper name. <input type="text" id="propername"> <br><br>
+      Type in a lengh of time. <input type="text" id="lenghoftime"> <br><br>
+      Type in a body part. <input type="text" id="bodypart"> <br><br>
+      Type in an interjection. <input type="text" id="interjection"> <br><br>
+      Type in a superlative <input type="text" id="superlative"> <br><br>
+      Type in a place <input type="text" id="place"> <br><br>
+      Type in an adverb. <input type="text" id="adverb"> <br><br>
+      Type in a noun. <input type="text" id="noun1"> <br><br>
+      Type in a food. <input type="text" id="food"> <br><br>
+      Type in plural animal. <input type="text" id="pluralanimal"> <br><br>
+      Type in another noun. <input type="text" id="noun2"> <br><br>
+      Type in a number. <input type="text" id="number"> <br><br>
+      Type in a verb. <input type="text" id="verb3"> <br><br>
+      Type in another adjective. <input type="text" id="adjective2"> <br><br>
+      Type in a saltutation. <input type="text" id="saltutation"> <br><br>
+
+      <input type="button" onclick="makeStory()" value="Make Story">
+      </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title"></h2>
+    <p id="story"></p>
+</div>
+
+<script src="story_maker.js" ></script>
+
+</body>
+</html>
